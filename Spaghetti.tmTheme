@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>Spaghetti</string>
 	<key>comment</key>
-	<string>For coping with front end spaghetti code.</string>
+	<string>A tmtheme for coping with front end spaghetti code.</string>
 	<key>semanticClass</key>
 	<string>theme.dark.spaghetti</string>
 	<key>colorSpaceName</key>
@@ -47,15 +47,27 @@
 				<key>guide</key>
 				<string>#A4DDED1C</string>
 				<key>selection</key>
-				<string>#FD5FF11C</string>
-				<key>selectionBorder</key>
 				<string>#FD5FF138</string>
+				<key>selectionBorder</key>
+				<string>#FD5FF180</string>
 				<key>shadow</key>
-				<string>#E518CF</string>
+				<string>#E518CF80</string>
 				<key>findHighlight</key>
 				<string>#E518CF</string>
 				<key>findHighlightForeground</key>
 				<string>#FFFFFF</string>
+				<key>bracketContentsForeground</key>
+				<string>#E518CF</string>
+				<key>bracketContentsOptions</key>
+				<string>stippled_underline</string>
+				<key>bracketsOptions</key>
+				<string>stippled_underline</string>
+				<key>bracketsForeground</key>
+				<string>#EBFDB6</string>
+				<key>tagsForeground</key>
+				<string>#C2E266</string>
+				<key>tagsOptions</key>
+				<string>squiggly_underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -764,10 +776,9 @@ punctuation.terminator.rule.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>constant.language.boolean.true.js</string>
+			<string>constant.language.boolean</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true,
-constant.language.boolean.false</string>
+			<string>constant.language.boolean</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
